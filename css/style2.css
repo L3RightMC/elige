@@ -206,12 +206,18 @@ body{
 .kebab h1{
     text-align: center;
 }
+@media (max-width: 768px){
+    .kebab h1{
+        font-size: 15px;
+    }
+}
 .kebab img{
     margin-left: 10%;
 }
 @media (max-width: 768px){
     .kebab img{
         margin-left: 0;
+        width: 350px;
     }
 }
 #cuentaAtras {
