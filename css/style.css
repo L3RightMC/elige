@@ -5,7 +5,29 @@
     list-style-type: none;
     text-decoration: none;
 }
-@keyframes rgb{
+@keyframes abajo-arriba{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+        transform: translate(-50%, -50%)
+    }
+    to{
+        opacity: 1;
+        transform: translateZ(0px);
+        transform: translate(-50%, -50%)
+    }
+}
+body{
+    background-color: dark;
+    color: white;
+}
+body span{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+}
+/* @keyframes rgb{
     0% {
         background-position: 0% 50%;
     }
@@ -266,4 +288,5 @@ body{
         top: 85%;
         left: 70%;
     }
-}
+
+} */
